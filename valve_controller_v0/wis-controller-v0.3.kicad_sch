@@ -8319,22 +8319,22 @@
 		(fields_autoplaced yes)
 		(uuid "2a894434-254c-43eb-ae03-22263485a206")
 		(property "Reference" "D2"
-			(at 169.2275 17.78 0)
+			(at 169.2275 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "MBR140SFT1G"
-			(at 169.2275 20.32 0)
+		(property "Value" "B5819W"
+			(at 169.2275 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "WIS_Solenoid_Power_module:D_MBR140SF"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 168.91 27.94 0)
 			(effects
 				(font
@@ -9131,22 +9131,22 @@
 		(fields_autoplaced yes)
 		(uuid "435c8848-2884-4bf5-b354-d632074735e7")
 		(property "Reference" "D5"
-			(at 169.2275 26.67 0)
+			(at 169.2275 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "MBR140SFT1G"
-			(at 169.2275 29.21 0)
+		(property "Value" "B5819W"
+			(at 169.2275 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "WIS_Solenoid_Power_module:D_MBR140SF"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 168.91 36.83 0)
 			(effects
 				(font
