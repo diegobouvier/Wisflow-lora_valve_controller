@@ -6872,50 +6872,6 @@
 				)
 			)
 		)
-		(fp_text user "0.02in/0.5mm"
-			(at -4.0513 -0.500126 0)
-			(layer "Cmts.User")
-			(uuid "11392fba-e0b9-492f-898c-b71ab844ee0e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "0.039in/0.991mm"
-			(at 0 4.1021 0)
-			(layer "Cmts.User")
-			(uuid "2752ea4f-6fd4-4934-ae62-d87d47740e8b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "0.079in/2.007mm"
-			(at 0 -3.4671 0)
-			(layer "Cmts.User")
-			(uuid "443e7b02-a848-4420-8994-52ad9ed14e01")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "0.028in/0.711mm"
-			(at -1.0033 2.8321 0)
-			(layer "Cmts.User")
-			(uuid "964e7506-752a-4ad2-afe5-ea405ed8bd6f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(fp_text user "Copyright 2021 Accelerated Designs. All rights reserved."
 			(at 0 0 0)
 			(layer "Cmts.User")
@@ -6924,28 +6880,6 @@
 				(font
 					(size 0.127 0.127)
 					(thickness 0.002)
-				)
-			)
-		)
-		(fp_text user "0.01in/0.254mm"
-			(at 4.0513 -0.750189 0)
-			(layer "Cmts.User")
-			(uuid "be5bb51a-155b-4774-9709-e3750aaa3bf9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "0.067in/1.702mm"
-			(at 3.4671 0 0)
-			(layer "Cmts.User")
-			(uuid "d24f3b44-bf32-450b-86bd-4cb6a094aac9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -16966,17 +16900,6 @@
 				)
 			)
 		)
-		(fp_text user "0.067in/1.702mm"
-			(at 3.4671 0 0)
-			(layer "Cmts.User")
-			(uuid "06e7805f-7995-4cf1-87e0-8309192163e7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(fp_text user "Copyright 2021 Accelerated Designs. All rights reserved."
 			(at 0 0 0)
 			(layer "Cmts.User")
@@ -16985,61 +16908,6 @@
 				(font
 					(size 0.127 0.127)
 					(thickness 0.002)
-				)
-			)
-		)
-		(fp_text user "0.01in/0.254mm"
-			(at 4.0513 -0.750189 0)
-			(layer "Cmts.User")
-			(uuid "63496eb6-1419-4e3a-9103-1c32013cb998")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "0.028in/0.711mm"
-			(at -1.0033 2.8321 0)
-			(layer "Cmts.User")
-			(uuid "6af1b2c2-faf4-4564-807d-3787e1322557")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "0.039in/0.991mm"
-			(at 0 4.1021 0)
-			(layer "Cmts.User")
-			(uuid "a8be6a9b-ba03-41b6-a50d-9942b68a5d3e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "0.02in/0.5mm"
-			(at -4.0513 -0.500126 0)
-			(layer "Cmts.User")
-			(uuid "ac016866-f335-4155-ab86-af6085ea5a20")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "0.079in/2.007mm"
-			(at 0 -3.4671 0)
-			(layer "Cmts.User")
-			(uuid "d2116d36-2d14-490c-be27-6ccc079226e7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
