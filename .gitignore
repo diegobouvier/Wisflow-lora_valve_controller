@@ -30,8 +30,9 @@ fp-info-cache
 *.ses
 
 # Exported BOM files
+# Allowed csv files to allow manufacturing BOM
 *.xml
-*.csv
+#*.csv
 
 # Archived Backups (KiCad 6.0)
 **/*-backups/*.zip
