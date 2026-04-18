@@ -7928,7 +7928,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Wisflow:18650_SMD"
+		(property "Footprint" "Wisflow:BatteryHolder_MPD_BK-18650-PC2"
 			(at 172.72 88.9 0)
 			(effects
 				(font
