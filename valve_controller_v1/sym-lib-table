@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Wisflow")(type "KiCad")(uri "/home/diego/Proyectos/NicoMenoni/Repositorios/Wisflow-lora_valve_controller/libraries/Wisflow.kicad_sym")(options "")(descr ""))
+)
