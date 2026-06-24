@@ -3138,6 +3138,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C319148"
+			(at 40.64 63.5 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(italic yes)
+				)
+			)
+		)
 		(pin "B5"
 			(uuid "ee91626f-dedc-45c6-94f6-e3faff36f42d")
 		)
@@ -3683,7 +3692,7 @@
 			)
 		)
 		(property "Value" "CH340E"
-			(at 116.84 66.04 0)
+			(at 115.57 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3717,6 +3726,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C99652"
+			(at 118.11 64.77 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(italic yes)
+				)
 			)
 		)
 		(pin "2"

@@ -3878,7 +3878,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12"
 			(at 135.89 73.66 0)
 			(effects
 				(font
@@ -3903,6 +3903,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C145854"
+			(at 135.89 81.28 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(italic yes)
+				)
 			)
 		)
 		(pin "2"
@@ -4274,7 +4283,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P"
 			(at 124.46 41.91 0)
 			(effects
 				(font

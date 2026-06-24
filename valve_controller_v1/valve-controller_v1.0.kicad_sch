@@ -147,6 +147,177 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x03"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
 				(offset 1.016)
@@ -1361,6 +1532,34 @@
 		)
 		(uuid cc123318-02c5-4002-ab5b-b12188a719e0)
 	)
+	(text "DNP"
+		(exclude_from_sim no)
+		(at 240.03 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+				(color 128 77 0 1)
+			)
+		)
+		(uuid "11e60865-d1a7-45d9-a504-b7cbeeedc1d1")
+	)
+	(text "DNP"
+		(exclude_from_sim no)
+		(at 240.03 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+				(color 128 77 0 1)
+			)
+		)
+		(uuid "bcfa2333-af6f-4f82-bcb0-2fde4b630974")
+	)
 	(text "Main Power Inputs"
 		(exclude_from_sim no)
 		(at 17.78 19.05 0)
@@ -1453,6 +1652,16 @@
 			(type default)
 		)
 		(uuid "151dcd61-2c1a-4d56-8fb3-5523493e411b")
+	)
+	(wire
+		(pts
+			(xy 161.29 138.43) (xy 166.37 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17939ee4-78d4-451b-af11-0a1dcdd4a955")
 	)
 	(wire
 		(pts
@@ -2026,6 +2235,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 140.97) (xy 161.29 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d25149cd-4eb4-4ddc-a368-bed5bb55a467")
+	)
+	(wire
+		(pts
 			(xy 92.71 92.71) (xy 105.41 92.71)
 		)
 		(stroke
@@ -2187,10 +2406,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "12760c60-9802-4a64-8501-2342c3147221")
 		(property "Reference" "BT1"
-			(at 25.4 36.2584 0)
+			(at 24.13 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2199,7 +2417,7 @@
 			)
 		)
 		(property "Value" "18650"
-			(at 25.4 38.7984 0)
+			(at 24.13 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2207,7 +2425,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Wisflow:BatteryHolder_MPD_BK-18650-PC2"
 			(at 21.59 37.846 90)
 			(effects
 				(font
@@ -2259,6 +2477,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C19184084"
+			(at 26.67 40.64 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(italic yes)
+				)
 			)
 		)
 		(pin "2"
@@ -2346,7 +2573,7 @@
 		(at 236.22 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "1ef93422-5da0-4873-8870-556bacf0d9c6")
@@ -3346,7 +3573,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal"
 			(at 40.64 35.56 0)
 			(effects
 				(font
@@ -3448,6 +3675,71 @@
 			(project "valve-controller_v1.0"
 				(path "/f4047b92-8fb3-4a02-b3b3-070ec973e913"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 161.29 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ad3cf02-1b10-44df-904b-6bd21f4bf914")
+		(property "Reference" "#PWR0111"
+			(at 161.29 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 161.29 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 161.29 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "faee133c-bb4b-4351-80dc-611e0795b964")
+		)
+		(instances
+			(project "valve-controller_v1.0"
+				(path "/f4047b92-8fb3-4a02-b3b3-070ec973e913"
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -3649,8 +3941,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 171.45 133.35 0)
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 171.45 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3666,15 +3958,15 @@
 			)
 		)
 		(property "Value" "Debug"
-			(at 173.99 134.62 90)
+			(at 173.99 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 171.45 133.35 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 171.45 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3683,7 +3975,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 133.35 0)
+			(at 171.45 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3691,8 +3983,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 171.45 133.35 0)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 171.45 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3705,6 +3997,9 @@
 		)
 		(pin "2"
 			(uuid "f81088cc-ae38-420a-8a48-dfa9cae54fbd")
+		)
+		(pin "3"
+			(uuid "8d10e787-be8a-4437-bc43-851d74be7844")
 		)
 		(instances
 			(project "valve-controller_v1.0"
@@ -3850,7 +4145,7 @@
 		(at 236.22 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "ccebe7e8-bd72-46e5-a651-6876fcd695c6")

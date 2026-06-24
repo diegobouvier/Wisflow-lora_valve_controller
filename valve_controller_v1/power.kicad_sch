@@ -896,7 +896,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:BSD235C"
+		(symbol "Transistor_FET:DMC2053UVT"
 			(pin_names
 				(hide yes)
 			)
@@ -904,7 +904,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at 5.08 2.54 0)
+				(at 2.54 1.905 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -912,8 +912,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "BSD235C"
-				(at 5.08 0 0)
+			(property "Value" "DMC2053UVT"
+				(at 2.54 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -921,19 +921,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSD235C-DS-v02_04-EN.pdf?fileId=db3a30433580b371013585a2d0d53326"
-				(at 5.08 -3.81 0)
+			(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+				(at 2.54 -1.905 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -942,7 +931,17 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "-0.53/+0.95A Id, -20/+20V Vds, P/N-Channel MOSFET, SOT-363, Infineon"
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMC2053UVT.pdf"
+				(at 2.54 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "4.6A/-3.2A Id, 20V Vds, Complementary pair enhancement mode P-Channel and N-Channel MOSFET, TSOT-23-6"
 				(at 0 0 0)
 				(effects
 					(font
@@ -951,7 +950,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "OptiMOS MOSFET complementary nmos pmos enhanced avalanche AEC Q101 super logic infineon"
+			(property "ki_keywords" "complementary mosfet"
 				(at 0 0 0)
 				(effects
 					(font
@@ -960,7 +959,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?363*"
+			(property "ki_fp_filters" "TSOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -969,10 +968,22 @@
 					(hide yes)
 				)
 			)
-			(symbol "BSD235C_1_1"
+			(symbol "DMC2053UVT_0_1"
 				(polyline
 					(pts
-						(xy 0.254 0) (xy -2.54 0)
+						(xy -2.286 1.905) (xy -2.286 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 0) (xy -5.08 0)
 					)
 					(stroke
 						(width 0)
@@ -984,7 +995,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.254 -1.905) (xy 0.254 1.905)
+						(xy -1.778 2.286) (xy -1.778 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -996,7 +1007,31 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+						(xy -1.778 0.508) (xy -1.778 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -1.27) (xy -1.778 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -1.778) (xy 0.762 -1.778) (xy 0.762 1.778) (xy -1.778 1.778)
 					)
 					(stroke
 						(width 0)
@@ -1004,58 +1039,10 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.27) (xy 0.762 2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -0.508) (xy 0.762 0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -2.286) (xy 0.762 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 -0.381) (xy 2.032 0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 				(circle
-					(center 1.651 0)
+					(center -0.889 0)
 					(radius 2.794)
 					(stroke
 						(width 0.254)
@@ -1067,7 +1054,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 1.905) (xy 2.54 2.54)
+						(xy 0 2.54) (xy 0 1.778)
 					)
 					(stroke
 						(width 0)
@@ -1078,7 +1065,7 @@
 					)
 				)
 				(circle
-					(center 2.54 1.778)
+					(center 0 1.778)
 					(radius 0.254)
 					(stroke
 						(width 0)
@@ -1089,7 +1076,7 @@
 					)
 				)
 				(circle
-					(center 2.54 -1.778)
+					(center 0 -1.778)
 					(radius 0.254)
 					(stroke
 						(width 0)
@@ -1101,7 +1088,33 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+						(xy 0 -2.54) (xy 0 0) (xy -1.778 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "DMC2053UVT_1_1"
+				(polyline
+					(pts
+						(xy -1.524 0) (xy -0.508 0.381) (xy -0.508 -0.381) (xy -1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0.508) (xy 0.381 0.381) (xy 1.143 0.381) (xy 1.27 0.254)
 					)
 					(stroke
 						(width 0)
@@ -1113,7 +1126,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+						(xy 0.762 0.381) (xy 0.381 -0.254) (xy 1.143 -0.254) (xy 0.762 0.381)
 					)
 					(stroke
 						(width 0)
@@ -1123,29 +1136,17 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
+				(pin passive line
+					(at -7.62 0 0)
 					(length 2.54)
-					(name "GN"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1154,9 +1155,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 5.08 270)
+					(at 0 5.08 270)
 					(length 2.54)
-					(name "DN"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1172,194 +1173,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
+					(at 0 -5.08 90)
 					(length 2.54)
-					(name "SN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "BSD235C_2_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 1.27 -0.381) (xy 1.27 0.381) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.905) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "GP"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1374,10 +1190,66 @@
 						)
 					)
 				)
+			)
+			(symbol "DMC2053UVT_2_1"
+				(polyline
+					(pts
+						(xy -0.254 0) (xy -1.27 0.381) (xy -1.27 -0.381) (xy -0.254 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -0.508) (xy 0.381 -0.381) (xy 1.143 -0.381) (xy 1.27 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -0.381) (xy 0.381 0.254) (xy 1.143 0.254) (xy 0.762 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at 2.54 5.08 270)
+					(at -7.62 0 0)
 					(length 2.54)
-					(name "SP"
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1393,16 +1265,16 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
+					(at 0 -5.08 90)
 					(length 2.54)
-					(name "DP"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2944,17 +2816,6 @@
 		)
 		(uuid "7b401fad-19c3-43a1-a04b-3318d5abb975")
 	)
-	(text "JLCPCB: C780036"
-		(exclude_from_sim no)
-		(at 101.6 63.5 0)
-		(effects
-			(font
-				(size 0.508 0.508)
-				(color 72 72 72 1)
-			)
-		)
-		(uuid "8247f76c-679e-43e6-8f22-1c1c04048b56")
-	)
 	(text "TestPoint"
 		(exclude_from_sim no)
 		(at 168.91 54.61 0)
@@ -3108,7 +2969,7 @@
 	)
 	(text_box "Latching Switch"
 		(exclude_from_sim no)
-		(at 93.98 59.69 0)
+		(at 93.98 62.23 0)
 		(size 11.43 2.54)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -4576,6 +4437,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Schottky_Small")
+		(at 33.02 90.17 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c3af2de-f3b3-4882-8f4d-d354d9adb449")
+		(property "Reference" "D2"
+			(at 33.02 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BS819W"
+			(at 33.02 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 33.02 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode, small symbol"
+			(at 33.02 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C8598"
+			(at 33.02 95.25 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(italic yes)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5303219a-d210-4f19-be4e-c93ec4238f0f")
+		)
+		(pin "2"
+			(uuid "3670806c-e759-428c-a87d-09f38bbd1f69")
+		)
+		(instances
+			(project "valve-controller_v1.0"
+				(path "/f4047b92-8fb3-4a02-b3b3-070ec973e913/84a58c9c-93e2-4d87-862e-c3ae3a2c30ea"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 102.87 107.95 0)
 		(unit 1)
@@ -5121,7 +5059,7 @@
 		(dnp no)
 		(uuid "33e5717a-e902-4043-af83-db551b94325b")
 		(property "Reference" "U2"
-			(at 128.27 30.48 0)
+			(at 115.57 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5161,6 +5099,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C86534"
+			(at 125.73 45.72 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(italic yes)
+				)
 			)
 		)
 		(pin "5"
@@ -5874,7 +5821,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SC-80"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 30.48 45.72 90)
 			(effects
 				(font
@@ -5901,6 +5848,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C8598"
+			(at 30.48 50.8 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(italic yes)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "067fa69d-0f4c-4603-a874-bc77e52743b5")
 		)
@@ -5911,74 +5867,6 @@
 			(project "valve-controller_v1.0"
 				(path "/f4047b92-8fb3-4a02-b3b3-070ec973e913/84a58c9c-93e2-4d87-862e-c3ae3a2c30ea"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky_Small")
-		(at 33.02 101.6 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "570bc73e-b7f7-41f7-bd70-ce89c8d3d4f1")
-		(property "Reference" "D3"
-			(at 33.02 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BS819W"
-			(at 33.02 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SC-80"
-			(at 33.02 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 33.02 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode, small symbol"
-			(at 33.02 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "db61a06a-669c-49a9-b7d2-10ffcd1bb7a3")
-		)
-		(pin "2"
-			(uuid "69bc298b-b91f-4a6d-afd7-57ab724b41f7")
-		)
-		(instances
-			(project "valve-controller_v1.0"
-				(path "/f4047b92-8fb3-4a02-b3b3-070ec973e913/84a58c9c-93e2-4d87-862e-c3ae3a2c30ea"
-					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -6072,7 +5960,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DMG3415UQ-7"
+		(property "Value" "AO3401A"
 			(at 39.37 36.83 0)
 			(effects
 				(font
@@ -6081,7 +5969,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 39.37 34.29 0)
 			(effects
 				(font
@@ -6106,6 +5994,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C15127"
+			(at 41.91 39.37 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(italic yes)
+				)
 			)
 		)
 		(pin "2"
@@ -6257,74 +6154,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky_Small")
-		(at 33.02 90.17 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "620ed2fa-7db8-48b9-9c9c-478e0eb325f1")
-		(property "Reference" "D2"
-			(at 33.02 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BS819W"
-			(at 33.02 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SC-80"
-			(at 33.02 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 33.02 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode, small symbol"
-			(at 33.02 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "13de7620-b3a7-4691-8c1a-92436de03ef5")
-		)
-		(pin "2"
-			(uuid "3e890d4b-bb3d-443c-9271-8b12fcb677b1")
-		)
-		(instances
-			(project "valve-controller_v1.0"
-				(path "/f4047b92-8fb3-4a02-b3b3-070ec973e913/84a58c9c-93e2-4d87-862e-c3ae3a2c30ea"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 165.1 59.69 270)
 		(unit 1)
@@ -6386,6 +6215,98 @@
 			(project "valve-controller_v1.0"
 				(path "/f4047b92-8fb3-4a02-b3b3-070ec973e913/84a58c9c-93e2-4d87-862e-c3ae3a2c30ea"
 					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:DMC2053UVT")
+		(at 157.48 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c942b06-bfa3-463c-b24a-e67e48a0c29c")
+		(property "Reference" "Q3"
+			(at 160.02 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AP2003"
+			(at 160.02 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+			(at 160.02 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Complementary pair enhancement mode P-Channel and N-Channel MOSFET, TSOT-23-6"
+			(at 157.48 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C2849575"
+			(at 162.56 113.03 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(italic yes)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "ebf91d6a-b774-4d54-9085-2b3a81c9d4b6")
+		)
+		(pin "2"
+			(uuid "598922ac-2cff-482e-98c6-89136e210a5b")
+		)
+		(pin "3"
+			(uuid "71e7e84d-eee5-4607-bdbc-00a221b7a82e")
+		)
+		(pin "4"
+			(uuid "ba69396e-5907-44e7-ab28-17623c5a96fb")
+		)
+		(pin "1"
+			(uuid "0deaa580-5c90-4cb0-b68d-6966661c1c76")
+		)
+		(pin "6"
+			(uuid "cd06f113-8c05-42a0-aef2-a7035d42d419")
+		)
+		(instances
+			(project "valve-controller_v1.0"
+				(path "/f4047b92-8fb3-4a02-b3b3-070ec973e913/84a58c9c-93e2-4d87-862e-c3ae3a2c30ea"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -6985,90 +6906,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:BSD235C")
-		(at 168.91 93.98 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9bfbddc3-08bd-45cf-a43b-de2361a89bf8")
-		(property "Reference" "Q2"
-			(at 173.99 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSD235C"
-			(at 173.99 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 173.99 95.885 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSD235C-DS-v02_04-EN.pdf?fileId=db3a30433580b371013585a2d0d53326"
-			(at 173.99 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "-0.53/+0.95A Id, -20/+20V Vds, P/N-Channel MOSFET, SOT-363, Infineon"
-			(at 168.91 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "8d3adb39-801a-4159-9833-2296130f2b96")
-		)
-		(pin "4"
-			(uuid "2a664890-f6b4-4e53-8cb6-0c6591b50e01")
-		)
-		(pin "3"
-			(uuid "9e956bdc-ec29-41fa-b274-b99b19dc07bc")
-		)
-		(pin "6"
-			(uuid "3d094425-5281-4074-a7d8-33c42ebcd9e3")
-		)
-		(pin "2"
-			(uuid "276920d0-f202-4aa1-96e4-1fa718d10511")
-		)
-		(pin "1"
-			(uuid "ec948494-d2d7-4852-938b-9a04caf8c3ce")
-		)
-		(instances
-			(project "valve-controller_v1.0"
-				(path "/f4047b92-8fb3-4a02-b3b3-070ec973e913/84a58c9c-93e2-4d87-862e-c3ae3a2c30ea"
-					(reference "Q2")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 59.69 39.37 0)
 		(unit 1)
@@ -7210,10 +7047,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a075e3ce-8f8d-47fd-b7b4-5e8a8e574111")
 		(property "Reference" "U1"
-			(at 86.36 85.09 0)
+			(at 80.01 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7221,7 +7057,7 @@
 			)
 		)
 		(property "Value" "BQ21040DBV"
-			(at 86.36 87.63 0)
+			(at 86.36 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7255,6 +7091,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C202311"
+			(at 90.17 101.6 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(italic yes)
+				)
 			)
 		)
 		(pin "6"
@@ -7881,90 +7726,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:BSD235C")
-		(at 154.94 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cc8468e8-a078-459a-aee7-756d4d750938")
-		(property "Reference" "Q2"
-			(at 160.02 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSD235C"
-			(at 160.02 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 160.02 111.125 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-BSD235C-DS-v02_04-EN.pdf?fileId=db3a30433580b371013585a2d0d53326"
-			(at 160.02 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "-0.53/+0.95A Id, -20/+20V Vds, P/N-Channel MOSFET, SOT-363, Infineon"
-			(at 154.94 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "8d3adb39-801a-4159-9833-2296130f2b97")
-		)
-		(pin "4"
-			(uuid "2a664890-f6b4-4e53-8cb6-0c6591b50e02")
-		)
-		(pin "3"
-			(uuid "9e956bdc-ec29-41fa-b274-b99b19dc07bd")
-		)
-		(pin "6"
-			(uuid "3d094425-5281-4074-a7d8-33c42ebcd9e4")
-		)
-		(pin "2"
-			(uuid "276920d0-f202-4aa1-96e4-1fa718d10512")
-		)
-		(pin "1"
-			(uuid "ec948494-d2d7-4852-938b-9a04caf8c3cf")
-		)
-		(instances
-			(project "valve-controller_v1.0"
-				(path "/f4047b92-8fb3-4a02-b3b3-070ec973e913/84a58c9c-93e2-4d87-862e-c3ae3a2c30ea"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 24.13 52.07 0)
 		(unit 1)
@@ -8303,6 +8064,176 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Schottky_Small")
+		(at 33.02 101.6 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f7526bb0-2968-447b-988d-21bde4975b19")
+		(property "Reference" "D3"
+			(at 33.02 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BS819W"
+			(at 33.02 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 33.02 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode, small symbol"
+			(at 33.02 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C8598"
+			(at 33.02 106.68 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(italic yes)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "581f4834-b3d5-4038-9146-d499cee836e2")
+		)
+		(pin "2"
+			(uuid "0a3cd47a-32e3-4dfa-bdd7-6df8401d7f4d")
+		)
+		(instances
+			(project "valve-controller_v1.0"
+				(path "/f4047b92-8fb3-4a02-b3b3-070ec973e913/84a58c9c-93e2-4d87-862e-c3ae3a2c30ea"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:DMC2053UVT")
+		(at 171.45 93.98 0)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb9985b8-d837-496f-9397-2a12c722524e")
+		(property "Reference" "Q3"
+			(at 173.99 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AP2003"
+			(at 173.99 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+			(at 173.99 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Complementary pair enhancement mode P-Channel and N-Channel MOSFET, TSOT-23-6"
+			(at 171.45 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C2849575"
+			(at 171.45 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "ebf91d6a-b774-4d54-9085-2b3a81c9d4b7")
+		)
+		(pin "2"
+			(uuid "598922ac-2cff-482e-98c6-89136e210a5c")
+		)
+		(pin "3"
+			(uuid "71e7e84d-eee5-4607-bdbc-00a221b7a82f")
+		)
+		(pin "4"
+			(uuid "ba69396e-5907-44e7-ab28-17623c5a96fc")
+		)
+		(pin "1"
+			(uuid "0deaa580-5c90-4cb0-b68d-6966661c1c77")
+		)
+		(pin "6"
+			(uuid "cd06f113-8c05-42a0-aef2-a7035d42d41a")
+		)
+		(instances
+			(project "valve-controller_v1.0"
+				(path "/f4047b92-8fb3-4a02-b3b3-070ec973e913/84a58c9c-93e2-4d87-862e-c3ae3a2c30ea"
+					(reference "Q3")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Wisflow:XKB5858-X-F-75")
 		(at 99.06 53.34 0)
 		(unit 1)
@@ -8327,7 +8258,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "Button_Switch_SMD:Panasonic_EVQPUJ_EVQPUA"
 			(at 99.06 53.34 0)
 			(effects
 				(font
@@ -8352,6 +8283,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C780036"
+			(at 99.06 60.96 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(italic yes)
+				)
 			)
 		)
 		(pin "6"

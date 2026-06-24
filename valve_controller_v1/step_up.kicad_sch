@@ -1909,6 +1909,20 @@
 		)
 		(uuid "d95d333c-e5d1-4f56-8708-300de4050a73")
 	)
+	(text "DNP"
+		(exclude_from_sim no)
+		(at 163.83 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+				(color 128 77 0 1)
+			)
+		)
+		(uuid "e015af9a-55bb-4b80-86e2-93610c77201e")
+	)
 	(text "Power"
 		(exclude_from_sim no)
 		(at 19.05 96.52 0)
@@ -2888,7 +2902,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 160.02 29.21 0)
 			(effects
 				(font
@@ -3010,7 +3024,7 @@
 		(dnp no)
 		(uuid "52d5d9d4-6cf3-4941-9cd6-f251c3217912")
 		(property "Reference" "SW4"
-			(at 116.84 46.99 0)
+			(at 127 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3018,7 +3032,7 @@
 			)
 		)
 		(property "Value" "Voltage Selector"
-			(at 127 46.99 0)
+			(at 116.84 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3050,6 +3064,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C5439234"
+			(at 127 52.07 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(italic yes)
+				)
 			)
 		)
 		(pin "1"
@@ -3125,6 +3148,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C544413"
+			(at 85.09 62.23 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(italic yes)
+				)
 			)
 		)
 		(pin "5"
@@ -3306,7 +3338,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SO-4_4.4x4.3mm_P2.54mm"
 			(at 50.8 44.45 0)
 			(effects
 				(font
@@ -3331,6 +3363,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C2691608"
+			(at 50.8 52.07 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(italic yes)
+				)
 			)
 		)
 		(pin "2"
@@ -3626,7 +3667,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "83aef2c0-4015-4570-938f-c6bceea4518a")
 		(property "Reference" "L1"
 			(at 81.28 36.83 90)
@@ -3636,7 +3676,7 @@
 				)
 			)
 		)
-		(property "Value" "L_Small"
+		(property "Value" "6.8uH"
 			(at 81.28 39.37 90)
 			(effects
 				(font
@@ -3644,7 +3684,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Sunlord_SWPA5040S"
 			(at 81.28 41.91 0)
 			(effects
 				(font
@@ -3669,6 +3709,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C36411"
+			(at 81.28 43.18 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(italic yes)
+				)
 			)
 		)
 		(pin "1"
@@ -4426,7 +4475,7 @@
 		(at 166.37 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4751,6 +4800,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C8678"
+			(at 96.52 46.99 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+					(italic yes)
+				)
 			)
 		)
 		(pin "2"
