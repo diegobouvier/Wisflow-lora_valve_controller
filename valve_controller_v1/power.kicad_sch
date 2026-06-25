@@ -8258,7 +8258,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:Panasonic_EVQPUJ_EVQPUA"
+		(property "Footprint" "Wisflow:XKB5858-X-F-75"
 			(at 99.06 53.34 0)
 			(effects
 				(font

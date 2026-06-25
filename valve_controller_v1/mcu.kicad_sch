@@ -3419,7 +3419,7 @@
 		)
 		(uuid "14606b7a-e917-4ae9-9d8d-1ca8ee1ba104")
 	)
-	(hierarchical_label "RAK_DBG_TX"
+	(hierarchical_label "RAK_DBG_RX"
 		(shape input)
 		(at 55.88 142.24 0)
 		(effects
@@ -3430,7 +3430,7 @@
 		)
 		(uuid "2b469b35-0a2c-4d8b-892c-edd7e62ff3b5")
 	)
-	(hierarchical_label "RAK_DBG_RX"
+	(hierarchical_label "RAK_DBG_TX"
 		(shape input)
 		(at 55.88 139.7 0)
 		(effects
@@ -3878,7 +3878,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12"
+		(property "Footprint" "Wisflow:K3-1290S-E1"
 			(at 135.89 73.66 0)
 			(effects
 				(font
