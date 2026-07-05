@@ -2510,7 +2510,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_4-G-5,08_1x04_P5.08mm_Horizontal"
+		(property "Footprint" "Wisflow:2EDGRM-5.08-04P"
 			(at 236.22 81.28 0)
 			(effects
 				(font
@@ -3826,7 +3826,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_4-G-5,08_1x04_P5.08mm_Horizontal"
+		(property "Footprint" "Wisflow:2EDGRM-5.08-04P"
 			(at 236.22 99.06 0)
 			(effects
 				(font

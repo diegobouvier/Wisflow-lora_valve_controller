@@ -1,0 +1,238 @@
+(footprint "2EDGRM-5.08-04P"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -15.875 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ca7bcb7f-b2ed-4b4e-b636-aaa3676b83ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Sin título"
+		(at -2.286 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1b0202da-ef3c-4e1f-a500-1b5b8f02b23f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "29b54616-defc-4073-a5e2-e0ac0680ee1c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ce28b40f-8d2e-4747-9d92-e8e9b57645e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -19.8 -7.62)
+		(end -18 -7.62)
+		(stroke
+			(width 0.1)
+			(type dot)
+		)
+		(layer "F.SilkS")
+		(uuid "196a1b9b-ff0a-4066-af18-79844440e411")
+	)
+	(fp_line
+		(start -19.8 -2.54)
+		(end -18 -2.54)
+		(stroke
+			(width 0.1)
+			(type dot)
+		)
+		(layer "F.SilkS")
+		(uuid "32e6cc30-f601-49ba-ace2-5e6fba6450ae")
+	)
+	(fp_line
+		(start -19.8 2.54)
+		(end -18 2.54)
+		(stroke
+			(width 0.1)
+			(type dot)
+		)
+		(layer "F.SilkS")
+		(uuid "919071e6-a800-4d0e-9cc9-bcaacf57a901")
+	)
+	(fp_line
+		(start -19.8 7.62)
+		(end -18 7.62)
+		(stroke
+			(width 0.1)
+			(type dot)
+		)
+		(layer "F.SilkS")
+		(uuid "a7d453fa-e031-4514-a810-31d8584e5ca9")
+	)
+	(fp_line
+		(start -19.8 15.24)
+		(end -19.8 -15.24)
+		(stroke
+			(width 0.1)
+			(type dot)
+		)
+		(layer "F.SilkS")
+		(uuid "df544771-aa13-4194-866b-1e82705a8ebb")
+	)
+	(fp_line
+		(start -9.9 -15.24)
+		(end -19.8 -15.24)
+		(stroke
+			(width 0.1)
+			(type dot)
+		)
+		(layer "F.SilkS")
+		(uuid "7b52ff0a-3ed9-40aa-aa44-53e577f80f54")
+	)
+	(fp_line
+		(start -9.9 15.24)
+		(end -19.8 15.24)
+		(stroke
+			(width 0.1)
+			(type dot)
+		)
+		(layer "F.SilkS")
+		(uuid "9996bba5-d4c5-4993-a4af-8f5f9502a42d")
+	)
+	(fp_line
+		(start -9.9 15.24)
+		(end -9.9 -15.24)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fa8cb5df-0baa-44de-8bd5-52e28781eef1")
+	)
+	(fp_line
+		(start 2.1 -15.24)
+		(end -9.9 -15.24)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8450a062-5329-4328-aed2-13e697cfd13c")
+	)
+	(fp_line
+		(start 2.1 -15.24)
+		(end 2.1 15.24)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ec9400d1-86bc-4b18-9e3f-3219d6065db7")
+	)
+	(fp_line
+		(start 2.1 15.24)
+		(end -9.9 15.24)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "443f1b09-1436-47b6-88b0-a0d701310a26")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -3.937 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cf1f0267-11b3-4426-8b49-f8cb951470d1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 -7.62)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "881e4bea-0f55-4311-8fd4-c7a20db54959")
+	)
+	(pad "2" thru_hole roundrect
+		(at 0 -2.54)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "3cce1ff7-844d-4b5e-991f-777494e8d0c1")
+	)
+	(pad "3" thru_hole roundrect
+		(at 0 2.54)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "83932998-e018-497d-b61e-494f82be0a8a")
+	)
+	(pad "4" thru_hole roundrect
+		(at 0 7.62)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "a5ed02a3-0508-43a1-9674-45e49d416086")
+	)
+	(embedded_fonts no)
+	(model "/home/diego/Proyectos/NicoMenoni/Repositorios/Wisflow-lora_valve_controller/libraries/3DModels/2EDGRM-5.08-04P.stp"
+		(offset
+			(xyz -9.9 -7.63 3.78)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 -90)
+		)
+	)
+	(model "/home/diego/Proyectos/NicoMenoni/Repositorios/Wisflow-lora_valve_controller/libraries/3DModels/2EDGKM-5.08-04P.stp"
+		(offset
+			(xyz -19.84 15.1 15.1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 -90 -0)
+		)
+	)
+)
