@@ -2294,14 +2294,6 @@
 		(uuid "13339abe-31e4-4613-92ec-257060402db9")
 	)
 	(no_connect
-		(at 88.9 69.85)
-		(uuid "26f5b1f6-2101-4834-b261-2e67635c7dd9")
-	)
-	(no_connect
-		(at 48.26 44.45)
-		(uuid "58b33034-d543-45f3-88a2-9c6eb35d02e0")
-	)
-	(no_connect
 		(at 88.9 77.47)
 		(uuid "6b594d9c-c0b5-4d18-aa48-3072257a18b0")
 	)
@@ -2310,12 +2302,20 @@
 		(uuid "7a9ce6b8-e347-4490-853f-001275715132")
 	)
 	(no_connect
-		(at 88.9 67.31)
-		(uuid "a07cba5a-38a1-4942-932b-61c1fa7e30bf")
+		(at 88.9 64.77)
+		(uuid "b1082073-e38b-4751-8135-378fbc70f525")
 	)
 	(no_connect
 		(at 48.26 46.99)
 		(uuid "ce3e91ee-54e1-4754-9ef8-dc5d9a1948eb")
+	)
+	(no_connect
+		(at 48.26 39.37)
+		(uuid "da0dcc46-5d3a-4fee-93e5-f4725b82ea74")
+	)
+	(no_connect
+		(at 88.9 41.91)
+		(uuid "fbbc6012-624a-496a-9945-0a7547e5dc0c")
 	)
 	(wire
 		(pts
@@ -2429,6 +2429,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 69.85) (xy 106.68 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18e103ad-2f67-45a8-be39-7311df403059")
+	)
+	(wire
+		(pts
 			(xy 88.9 62.23) (xy 106.68 62.23)
 		)
 		(stroke
@@ -2449,16 +2459,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 76.2) (xy 156.21 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2364cb58-8bd5-4e4f-87d3-81b7623ef85d")
-	)
-	(wire
-		(pts
 			(xy 160.02 27.94) (xy 160.02 30.48)
 		)
 		(stroke
@@ -2476,16 +2476,6 @@
 			(type default)
 		)
 		(uuid "24eb32ea-5cd0-4487-af96-a82106fe26d3")
-	)
-	(wire
-		(pts
-			(xy 88.9 64.77) (xy 106.68 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "262f2738-e2c0-432c-b878-91176a78818b")
 	)
 	(wire
 		(pts
@@ -2699,16 +2689,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 78.74) (xy 156.21 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a871829-da33-4426-9061-9d8434978645")
-	)
-	(wire
-		(pts
 			(xy 96.52 127) (xy 77.47 127)
 		)
 		(stroke
@@ -2879,6 +2859,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 67.31) (xy 106.68 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c61ff124-6278-4523-b131-d7205688a765")
+	)
+	(wire
+		(pts
 			(xy 30.48 41.91) (xy 48.26 41.91)
 		)
 		(stroke
@@ -2959,23 +2949,13 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 39.37) (xy 48.26 39.37)
+			(xy 30.48 44.45) (xy 48.26 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f7accec0-0a99-4d18-b841-e9f2fe3b83ec")
-	)
-	(wire
-		(pts
-			(xy 88.9 41.91) (xy 106.68 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8b2a08c-2b54-4902-b522-cd3d465ad179")
 	)
 	(label "RAK_CTRL_S4_I1"
 		(at 77.47 152.4 0)
@@ -3038,7 +3018,7 @@
 		(uuid "1c1154bf-3629-444d-84bf-90228f2205f3")
 	)
 	(label "RAK_CTRL_S4_I1"
-		(at 106.68 62.23 180)
+		(at 106.68 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3048,7 +3028,7 @@
 		(uuid "228e7083-5b74-459b-9a8c-6d36baf9b941")
 	)
 	(label "RAK_CTRL_S1_I2"
-		(at 106.68 52.07 180)
+		(at 106.68 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3058,7 +3038,7 @@
 		(uuid "2b54d0bf-1b8a-444d-addf-cb41718b3fbf")
 	)
 	(label "RAK_CTRL_S4_I2"
-		(at 106.68 64.77 180)
+		(at 106.68 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3088,7 +3068,7 @@
 		(uuid "360fb214-583c-49a0-be60-56169e09369c")
 	)
 	(label "RAK_CTRL_S3_I1"
-		(at 106.68 41.91 180)
+		(at 106.68 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3108,7 +3088,7 @@
 		(uuid "51563d12-a387-41f8-a7ea-54fe573f25ab")
 	)
 	(label "BAT_MON"
-		(at 30.48 41.91 0)
+		(at 30.48 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3198,7 +3178,7 @@
 		(uuid "82216a67-2801-43ca-893f-580288c11c25")
 	)
 	(label "RAK_CTRL_S1_I1"
-		(at 106.68 49.53 180)
+		(at 106.68 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3268,7 +3248,7 @@
 		(uuid "a2bae53d-5c59-40c1-b582-d7519fe02886")
 	)
 	(label "~{BAT_MON_EN}"
-		(at 30.48 39.37 0)
+		(at 30.48 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3298,7 +3278,7 @@
 		(uuid "bc3e9f07-7add-41ee-a848-69aa092ce510")
 	)
 	(label "RAK_CTRL_S3_I2"
-		(at 106.68 59.69 180)
+		(at 106.68 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3308,7 +3288,7 @@
 		(uuid "bfb377e9-cf7c-421f-bb6d-1956f78526fe")
 	)
 	(label "RAK_CTRL_S2_I1"
-		(at 106.68 54.61 180)
+		(at 106.68 52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3347,16 +3327,6 @@
 		)
 		(uuid "d10c04ab-5c4a-4940-b4bb-2d54af0d2459")
 	)
-	(label "~{BAT_MON_EN}"
-		(at 156.21 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ebdc42e1-74e6-4f35-8b30-67f80de1d679")
-	)
 	(label "RAK_UART_RX"
 		(at 39.37 111.76 0)
 		(effects
@@ -3368,7 +3338,7 @@
 		(uuid "f03e0edf-ce49-4e9c-b635-533395866179")
 	)
 	(label "RAK_CTRL_S2_I2"
-		(at 106.68 57.15 180)
+		(at 106.68 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3376,16 +3346,6 @@
 			(justify right bottom)
 		)
 		(uuid "f46b78ae-0764-43ef-be42-c14371349e27")
-	)
-	(label "BAT_MON"
-		(at 156.21 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f73102c0-817f-4b59-ac28-9523b28149c9")
 	)
 	(label "~{RAK_RST}"
 		(at 148.59 34.29 180)
@@ -3583,140 +3543,6 @@
 			(justify left)
 		)
 		(uuid "fba2fe35-1c47-4395-bde5-4149976ba3f5")
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 168.91 78.74 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "029b926b-ac9e-4890-b03e-02501b123b46")
-		(property "Reference" "TP10"
-			(at 173.99 77.4699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "BAT_MON"
-			(at 173.99 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 168.91 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.91 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 168.91 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6046926d-0313-4925-b44a-2a9c278151f8")
-		)
-		(instances
-			(project "valve-controller_v1.0"
-				(path "/f4047b92-8fb3-4a02-b3b3-070ec973e913/71e93b2c-65ce-4650-9976-c707bec3d8ef"
-					(reference "TP10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 168.91 76.2 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0f17880b-5c89-4140-80a8-df0bd104e1ab")
-		(property "Reference" "TP9"
-			(at 173.99 74.9299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "~{BAT_MON_EN}"
-			(at 173.99 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 168.91 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.91 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 168.91 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5ea754b7-cfbd-4b5e-80de-a7bc1daa4319")
-		)
-		(instances
-			(project "valve-controller_v1.0"
-				(path "/f4047b92-8fb3-4a02-b3b3-070ec973e913/71e93b2c-65ce-4650-9976-c707bec3d8ef"
-					(reference "TP9")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4399,7 +4225,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "75bd1ea4-20ee-496d-bd87-1cd4c650d52a")
-		(property "Reference" "TP11"
+		(property "Reference" "TP9"
 			(at 173.99 80.0099 90)
 			(effects
 				(font
@@ -4451,7 +4277,7 @@
 		(instances
 			(project "valve-controller_v1.0"
 				(path "/f4047b92-8fb3-4a02-b3b3-070ec973e913/71e93b2c-65ce-4650-9976-c707bec3d8ef"
-					(reference "TP11")
+					(reference "TP9")
 					(unit 1)
 				)
 			)

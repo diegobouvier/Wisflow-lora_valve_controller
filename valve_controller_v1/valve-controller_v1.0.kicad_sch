@@ -722,89 +722,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -2772,134 +2689,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 26.67 184.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "326ffec3-757e-414d-8a9b-872c4e171d5b")
-		(property "Reference" "H4"
-			(at 29.21 182.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 29.21 185.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 26.67 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 26.67 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 26.67 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "valve-controller_v1.0"
-				(path "/f4047b92-8fb3-4a02-b3b3-070ec973e913"
-					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 26.67 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3ff92f90-0cf3-48d3-a603-955239b7e50d")
-		(property "Reference" "H1"
-			(at 29.21 163.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 29.21 166.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 26.67 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 26.67 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 26.67 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "valve-controller_v1.0"
-				(path "/f4047b92-8fb3-4a02-b3b3-070ec973e913"
-					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 34.29 92.71 0)
 		(unit 1)
@@ -2965,70 +2754,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 26.67 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "52216355-56fd-4862-a3b1-7129df59743f")
-		(property "Reference" "H3"
-			(at 29.21 176.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 29.21 179.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 26.67 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 26.67 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 26.67 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "valve-controller_v1.0"
-				(path "/f4047b92-8fb3-4a02-b3b3-070ec973e913"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+BATT")
 		(at 35.56 76.2 0)
 		(unit 1)
@@ -3088,70 +2813,6 @@
 			(project "valve-controller_v1.0"
 				(path "/f4047b92-8fb3-4a02-b3b3-070ec973e913"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 26.67 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "67857c0d-1d4b-48f5-a47a-d07af3f93022")
-		(property "Reference" "H2"
-			(at 29.21 170.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 29.21 172.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 26.67 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 26.67 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 26.67 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "valve-controller_v1.0"
-				(path "/f4047b92-8fb3-4a02-b3b3-070ec973e913"
-					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -4886,7 +4547,7 @@
 			)
 		)
 		(pin "S2_O2" input
-			(at 220.98 86.36 0)
+			(at 220.98 83.82 0)
 			(uuid "4a163b13-f983-4567-9d64-0938efdb76a6")
 			(effects
 				(font
@@ -4916,7 +4577,7 @@
 			)
 		)
 		(pin "S4_O1" input
-			(at 220.98 101.6 0)
+			(at 220.98 104.14 0)
 			(uuid "ffbf9149-4c9d-41fb-94aa-fa068e3be3bc")
 			(effects
 				(font
@@ -4956,7 +4617,7 @@
 			)
 		)
 		(pin "S3_O1" input
-			(at 220.98 96.52 0)
+			(at 220.98 99.06 0)
 			(uuid "9e5f09ef-b245-41f2-9a25-84cdd16bb831")
 			(effects
 				(font
@@ -4966,7 +4627,7 @@
 			)
 		)
 		(pin "S1_O2" input
-			(at 220.98 81.28 0)
+			(at 220.98 78.74 0)
 			(uuid "ce1c1e12-1a83-4624-af3e-71797dd1fb71")
 			(effects
 				(font
@@ -4986,7 +4647,7 @@
 			)
 		)
 		(pin "S3_O2" input
-			(at 220.98 99.06 0)
+			(at 220.98 96.52 0)
 			(uuid "0eb3c44a-bfaa-425f-b434-ef6bca129e30")
 			(effects
 				(font
@@ -4996,7 +4657,7 @@
 			)
 		)
 		(pin "S1_O1" input
-			(at 220.98 78.74 0)
+			(at 220.98 81.28 0)
 			(uuid "7d1db227-204c-412f-a92b-ae5b7f5bbd52")
 			(effects
 				(font
@@ -5006,7 +4667,7 @@
 			)
 		)
 		(pin "S2_O1" input
-			(at 220.98 83.82 0)
+			(at 220.98 86.36 0)
 			(uuid "9c351495-d99b-4e15-ab1a-b4fd257bf6a4")
 			(effects
 				(font
@@ -5016,7 +4677,7 @@
 			)
 		)
 		(pin "S4_O2" input
-			(at 220.98 104.14 0)
+			(at 220.98 101.6 0)
 			(uuid "3f94fbb8-4d6a-4d75-855b-bdb6baf4f460")
 			(effects
 				(font
@@ -5029,6 +4690,53 @@
 			(project "valve-controller_v1.0"
 				(path "/f4047b92-8fb3-4a02-b3b3-070ec973e913"
 					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 40.64 139.7)
+		(size 45.72 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 229 191 1.0000)
+		)
+		(uuid "e6b8d514-00e8-4e46-870f-fd1d3900ef71")
+		(property "Sheetname" "Mechanical and Others"
+			(at 41.91 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify left top)
+			)
+		)
+		(property "Sheetfile" "mechanical_and_others.kicad_sch"
+			(at 85.09 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(italic yes)
+				)
+				(justify right bottom)
+			)
+		)
+		(instances
+			(project "valve-controller_v1.0"
+				(path "/f4047b92-8fb3-4a02-b3b3-070ec973e913"
+					(page "7")
 				)
 			)
 		)
