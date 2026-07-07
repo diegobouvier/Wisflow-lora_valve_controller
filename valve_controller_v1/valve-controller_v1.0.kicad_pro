@@ -517,9 +517,9 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "valve-controller_v1.0.step",
       "svg": "",
-      "vrml": ""
+      "vrml": "../../../ValveController/valve-controller_v1.0.wrl"
     },
     "page_layout_descr_file": ""
   },
