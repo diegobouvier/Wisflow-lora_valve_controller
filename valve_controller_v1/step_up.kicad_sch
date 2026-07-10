@@ -2902,7 +2902,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 160.02 29.21 0)
 			(effects
 				(font
@@ -3039,7 +3039,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx02_Slide_Omron_A6H-2101_W6.15mm_P1.27mm"
+		(property "Footprint" "Wisflow:SMXMS-02"
 			(at 123.19 46.99 0)
 			(effects
 				(font
@@ -4498,7 +4498,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm"
+		(property "Footprint" "Wisflow:CP_Horizontal_D16_L25_P7.5mm"
 			(at 166.37 34.29 0)
 			(effects
 				(font
@@ -4775,7 +4775,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SC-80"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 96.52 41.91 90)
 			(effects
 				(font
